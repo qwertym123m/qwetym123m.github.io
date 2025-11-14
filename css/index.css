@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000000;
+}
+
+.main {
+	width: 1366px;
+	min-height: 768px;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 17px 0 0 143px;
+	color: #FFFFFF;
+	position: relative;
+}
+
+.logo {
+	display: block;
+}
+
+.bg {
+	position: absolute;
+	top: 88px;
+	right: 44px;
+}
+
+.word1 {
+	margin: 208px 0 17px;
+	font-weight: 800;
+	font-size: 42px;
+}
+
+.word2 {
+	width: 687px;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 27px;
+}
+
+.contact {
+	margin-top: 36px;
+	display: flex;
+}
+
+.contact .info {
+	width: 155px;
+	border: 1px solid #FFFFFF;
+	margin-right: 10px;
+	padding: 8px 10px;
+}
+
+.contact .info p {
+	font-size: 12px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-bottom: 4px;
+}
